@@ -25,7 +25,7 @@ Note: delete operation can only be done in their particular account.
 
 Total Story Points: 11
 
-Marketing Video URL (ensure permissions are set to public viewing):
+Marketing Video URL (ensure permissions are set to public viewing): https://www.youtube.com/watch?v=D_cYcgwW%20keg
 
 Is it OK if we post your Marketing Video URL on the class discussion forum?
 Yes
