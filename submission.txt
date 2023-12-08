@@ -32,4 +32,4 @@ Yes
 
 Any special instructions for grading (it should be easy for someone to run your
 app from a new machine):
-None
+For Database Connection use local MongoDB conection.
