@@ -1,15 +1,15 @@
 # Scrum Team
 
 ## Product Owner
-- Sakshi Sanjay Uplanchiwar
+- Sai Teja Mannam
 
 ## Scrum Master
-- Jyotika Koneru 
+- Krishna Teja Rayapudi
 
 ## Developers
-- Sravani Kaligotla
-- Sakshi Uplanchiwar
-- Pgnanasri
-- Jyotika Koneru 
-- Danish 
-- Teja Puram
+- Sai Teja Mannam
+- Krishna Teja Rayapudi
+- SaiVenkat Chinta
+- Tarun Lagadapati
+- Harishankara Reddy
+- Sushanth Rangu
