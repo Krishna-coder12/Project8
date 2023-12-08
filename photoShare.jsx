@@ -4,7 +4,7 @@ import {
   HashRouter, Route, Switch
 } from 'react-router-dom';
 import {
-  Grid, Typography, Paper
+  Grid,  Paper
 } from '@mui/material';
 import './styles/main.css';
 import {Redirect} from "react-router";

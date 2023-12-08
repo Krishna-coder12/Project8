@@ -14,7 +14,6 @@ import {
 import './userPhotos.css';
 // import fetchModel from "../../lib/fetchModelData";
 import axios from 'axios';
-import {right} from "@popperjs/core";
 
 /**
  * Define UserPhotos, a React componment of project #5
@@ -152,7 +151,6 @@ class UserPhotos extends React.Component {
 
                 // Display the warning prompt
                 if (window.confirm(warningMessage)) {
-                    // If the user confirms, proceed with account deletion
                     axios.delete(`/deleteUser/${userId}`)
                         .then(() => {
 

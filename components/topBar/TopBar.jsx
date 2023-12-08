@@ -9,8 +9,6 @@ import {
   Snackbar,
   TextField,
   Autocomplete,
-  Checkbox,
-  FormControlLabel,
 } from "@mui/material";
 import "./TopBar.css";
 import axios from "axios";
