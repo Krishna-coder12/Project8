@@ -1,0 +1,39 @@
+.topbar-appBar {
+  height: 60;
+  justify-content: 'center';
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .newbutton {
+    background-color: dodgerblue;
+    margin-left: 20px;
+  }
+
+  .MuiAutocomplete-root {
+    width: 400px;
+    margin-left: 20px;
+  }
+
+  .MuiFormControl-root label {
+      color: white;
+  }
+  .MuiAutocomplete-endAdornment {
+    top: unset;
+  }
+  .MuiToolbar-root {
+    .MuiTypography-root {
+      line-height: 2.334;
+    }
+  }
+  .css-bxepqz-MuiButtonBase-root-MuiCheckbox-root {
+    padding: 9px 0 9px 9px;
+
+    &.Mui-checked {
+      color: white;
+    }
+  }
+}
+
