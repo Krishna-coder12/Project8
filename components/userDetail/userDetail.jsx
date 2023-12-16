@@ -72,11 +72,11 @@ class UserDetail extends React.Component {
         this.props.history.push(`/photos/${this.state.userDetails._id}/${photoId}`);
     };
 
-    formatDate = (dateTimeString) => {
-        const date = new Date(dateTimeString);
-        const formattedDate = date.toISOString().replace(/T/, ' ').replace(/\.\d+Z$/, '');
-        return formattedDate;
-    };
+    // formatDate = (dateTimeString) => {
+    //     const date = new Date(dateTimeString);
+    //     const formattedDate = date.toISOString().replace(/T/, ' ').replace(/\.\d+Z$/, '');
+    //     return formattedDate;
+    // };
 
     render() {
         const { userDetails } = this.state;
@@ -95,13 +95,7 @@ class UserDetail extends React.Component {
                     {this.state.recentPhoto && (
                         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '20px', marginRight: '50px' }}>
                             <div style={{ marginLeft: '10px', width: '250px' }}>
-                                <TextField
-                                    disabled
-                                    id="outlined-disabled"
-                                    label="Recent Photo"
-                                    className="custom-field"
-                                    value={'Date Uploaded: ' + this.formatDate(this.state.recentPhoto.date_time)}
-                                />
+                                <p> Date Uploaded: {this.state.recentPhoto.date_time}</p>
                             </div>
                             <div style={{ marginLeft: '10px' }}>
                                 <img

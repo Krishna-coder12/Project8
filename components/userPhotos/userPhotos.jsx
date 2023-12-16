@@ -144,7 +144,7 @@ class UserPhotos extends React.Component {
     handleDeleteUserAccount = () => {
 
         const userId = this.state.userId;
-
+        /* eslint-disable no-alert */
         axios.delete(`/deleteUser/${userId}`)
             .then((response) => {
                 const warningMessage = response.data.message;
